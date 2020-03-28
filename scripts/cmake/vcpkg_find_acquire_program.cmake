@@ -95,8 +95,8 @@ function(vcpkg_find_acquire_program VAR)
       set(ARCHIVE "PortableGit-2.25.1-32-bit.7z.exe")
       set(HASH 222d6e384ecae5841cb02dc004c4b3f56659d19b662bc93ab531df844c9477c9717c4a1adfb8bc2d3159678238fa4c79ccbdcb5c116eea5eccd652f4b483359e)
       set(PATHS 
-        "${DOWNLOADS}/tools/${SUBDIR}/mingw32/bin"
-        "${DOWNLOADS}/tools/git/${SUBDIR}/mingw32/bin")
+        "${DOWNLOADS}/tools/${SUBDIR}/cmd"
+        "${DOWNLOADS}/tools/git/${SUBDIR}/cmd")
     else()
       set(BREW_PACKAGE_NAME "git")
       set(APT_PACKAGE_NAME "git")
